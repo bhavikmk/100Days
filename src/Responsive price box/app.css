@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Now code for another solution*/
+
+body {
+  background-color: rgb(114, 224, 228);
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  box-sizing: border-box;
+}
+
+.panel-pricing-table {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+}
+.pricing-plan:last-child{
+  border-bottom: none;
+}
+
+.pricing-img {
+  max-width: 100%;
+  padding: auto;
+}
+
+.pricing-header {
+  padding-top: 20px;
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px; /*Useful */
+  font-size: 24px;
+}
+
+.pricing-features {
+  margin:  20px auto 15px;
+  color: rgb(31, 106, 192);
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  padding: 15px;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  font-weight: 900;
+  font-size: 20px;
+  color: blue;
+  padding: 25px;
+  border: none;
+  display: block; /*next Element ne niche rakhva mate*/
+}
+
+.pricing-button {
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.pricing-button:hover{
+  background-color: rgb(82, 147, 185);
+  color: black;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Open Sans';
+  text-decoration: none;
+}
+@media(min-width:960px){
+  .panel-pricing-table{
+    flex-direction: row;
+    margin: 100px auto;
+  }
+}
