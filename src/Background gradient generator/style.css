@@ -1,0 +1,10 @@
+
+h1 {
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right,#00ff00,#4CC7E6 );
+    text-align: center;
+}
