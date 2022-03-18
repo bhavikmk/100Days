@@ -1,0 +1,35 @@
+body {
+    background-color: whitesmoke;
+}
+.logo {
+    display: inline-block;
+}
+.navbar-link {
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+.articles {
+    display: flex;
+}
+.article {
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 25px;
+}
+.why {
+    display: inline-block;
+    padding: 1.5%;
+    background-color: aqua;
+    width: 20%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+button {
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aquamarine;
+}
