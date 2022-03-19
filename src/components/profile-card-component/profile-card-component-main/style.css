@@ -1,0 +1,35 @@
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+.container {
+    text-align: center;
+}
+.card {
+    margin: auto;
+    max-width: 50%;
+    border-radius: 25px;
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+.cardbg {
+    max-width: fit-content;
+}
+
+.profile {
+    margin: -50px auto -30px auto;
+    border-radius: 50%;
+    max-width: 100%;
+    padding-bottom: 35px;
+}
+.name {
+    color: hsl(227, 10%, 46%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details {
+    display: flex;
+}
+.numbers {
+    flex: 1;
+}
