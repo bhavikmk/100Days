@@ -16,3 +16,5 @@ This repository contains my code for #100DaysOfCode challenge.
 
 2. Profile card component
 ![Profile card](https://github.com/bhavikmk/100Days/blob/main/src/components/profile-card-component/profile-card-component-main/design/desktop-design.jpg?raw=true)
+
+#just for PR testing
